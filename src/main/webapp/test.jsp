@@ -1,10 +1,13 @@
-<%@page import="java.sql.DriverManager" %> //JSP에서 자바 코드를 사용하기 위해 <% %> 사용
-<%@page import="java.sql.ResultSet" %> //필요한 라이브러리 import
+<%@page import="java.sql.DriverManager" %> <%--JSP에서 자바 코드를 사용하기 위해 사용 --%>
+<%@page import="java.sql.ResultSet" %> <%--필요한 라이브러리 import--%>
 <%@page import="java.sql.PreparedStatement" %>
 <%@page import="java.sql.Connection" %>
 <%@page import="java.sql.SQLException" %>
 <%@page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@page http-equiv="Content-type" content="text/html; charset=utf-8"%> <%--jsp파일이 다운됨--%>
+
+
     
 <%
 	Connection conn = null;
